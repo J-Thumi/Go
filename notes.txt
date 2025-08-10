@@ -1,0 +1,9 @@
+Every go project has a go.mod file
+I it created by go mod init github.com/J-Thumi/Gopher
+
+1. package main
+Every Go file starts with a package declaration.
+main is a special package in Go:
+Any package named main is treated as an entry point for an executable program.
+It must have a main() function — that’s where execution starts (like int main() in C).
+Without package main (and main()), Go won’t compile your code into an executable — it would instead compile it into a library.
